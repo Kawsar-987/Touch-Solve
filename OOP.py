@@ -1,3 +1,4 @@
+#Import time library to use sleep()
 import time
 
 print("Welcome to T&S Bank")
@@ -56,3 +57,4 @@ withdraw_ammount = int(input("Enter your withdraw ammount(BDT) : "))
 object_bank.withdraw(withdraw_ammount)
 
 print(object_bank)
+
